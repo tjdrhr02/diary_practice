@@ -1,3 +1,4 @@
+import 'package:diary_practice/statisticsPage.dart';
 import 'package:diary_practice/testPage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => TestPage(),
+        '/toStatisticsPage': (context) => StatisticsPage(),
       },
     );
   }
